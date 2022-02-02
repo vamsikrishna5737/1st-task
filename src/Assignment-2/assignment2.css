@@ -2,6 +2,8 @@
 
 
 .container, .content {
+display:block;    
+border:black;
 width: 100%;
 height: 100%;
 }
