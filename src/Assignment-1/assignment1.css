@@ -1,25 +1,13 @@
 /* Our CSS file. */
+.container{
+  display:grid;
+  grid-template-columns: auto auto;
+  
 
-#row{
-    margin: 5px;
-  }
-  #col1{
-    height: 550px;
-    width: 730px;
-    float:left; 
-    margin: 5px;
-    
-  }
-  #col{
-    height: 550px;
-    width: 730px;
-    float:left; 
-    margin: 5px;
-    display: grid;
-    justify-content: center;
-    align-content: center;
-  }
-  .container{
-    width: 100%;
-    height: 100%;
-  }
+}
+#middle
+{
+  display:grid;
+  justify-content: center;
+  align-content:center ;
+}
