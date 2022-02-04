@@ -1,5 +1,5 @@
 /* Our CSS file. */
-#struc
+.container,.content
 {
   width:100%;
   height:100%;
@@ -13,10 +13,9 @@
 }
 .part2
 {
-  width:49%;
+  width:50%;
   height:48vh;
   float:left;
-
 }
 .part3
 {
@@ -33,6 +32,9 @@
   display:grid;
   align-content:center;
   justify-content:center;
-  
 
+}
+img{
+  width:100%;
+  height:100%;
 }

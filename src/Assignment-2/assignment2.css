@@ -3,7 +3,28 @@
 
 .container, .content {
 display:block;    
-border:black;
-width: 100%;
-height: 100%;
+border:solid black;
+width: auto;
+height:700px;
+
+}
+#row
+{
+    display:block;
+    border:solid blue;
+    width:auto;
+    height:49.5%;
+}
+#col
+{
+    display:inline-block;
+    border:solid green;
+    margin:3px;
+    width:730px;
+    height:97%;
+
+}
+body{
+    width:100%;
+    height:100%;
 }
