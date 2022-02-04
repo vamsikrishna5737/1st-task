@@ -1,13 +1,38 @@
 /* Our CSS file. */
-.container{
-  display:grid;
-  grid-template-columns: auto auto;
-  
+#struc
+{
+  width:100%;
+  height:100%;
 
 }
-#middle
+.part1
 {
+  width:50%;
+  height:48vh;
+  float:left;
+}
+.part2
+{
+  width:49%;
+  height:48vh;
+  float:left;
+
+}
+.part3
+{
+  width:50%;
+  height:48vh;
+  float:left;
+
+}
+.part4
+{
+  width:50%;
+  height:48vh;
+  float:left;
   display:grid;
-  justify-content: center;
-  align-content:center ;
+  align-content:center;
+  justify-content:center;
+  
+
 }
