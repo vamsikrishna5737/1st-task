@@ -9,35 +9,40 @@
 </head>
 
 <body>
-	<div id="container">  
+	<div class="container">
 
-		<!-- This is just a comment. Ignore this line.-->
-		<!-- Start your code from here -->	
-		<div class="part1" >
-				<ul>
-					<li>List item 1</li>
-					<li>List item 2</li>
-					<li>List item 3</li>
-						<ul>
-							<li>List item 3.1</li>
-							<li>List item 3.2</li>
-						</ul>
-		
-				</ul>
+	<!-- Start your code from here -->
+	<div id="row">
+		<div id="col">
+			<ul>
+				<li>List item 1</li>
+				<li>List item 2</li>
+				<li>List item 3
+					<ul>
+						<li>List item 3.1</li>
+						<li>List item 3.2</li>
+					</ul>
+				</li>
+			</ul>
 		</div>
-		<div class="part2">
-				<img src="./pic/dragon-ball.jpg">
+		<div id="col">
+			<img src="https://source.unsplash.com/100x100/?nature" >
 		</div>
+	</div>
+	<div id="row">
+		<div id="col">
+			<img src="https://source.unsplash.com/100x100/?water">
+		</div>
+		<div id="col">
+			<h3>The largest community of photo enthusiasts</h3>
+		</div>
+	</div>
 	
-		<div  class="part3">
-				<img src="./pic/images.jpg">
-		</div>
-		<div class="part4" >
-				<h1>The largest community of photo enthusiasts</h1>
-		</div>
-	
-		<!-- End your code -->
-	</div> 
+
+	<!-- End your code -->
+
+	</div>
+
 	<script type="text/javascript">
 
 	</script>
@@ -52,7 +57,7 @@
 	// set the attributes for link element 
 	link.rel = 'stylesheet'; 
 	link.type = 'text/css';
-	link.href = './assignment1.css?v='+ new Date().getTime(); 
+	link.href = './assignment2.css?v='+ new Date().getTime(); 
 	// Append link element to HTML head
 	head.appendChild(link); 
 	/* DO NOT EDIT THIS CODE- WRITTERN TO PREVENT CSS CACHING */	  
